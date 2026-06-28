@@ -1,91 +1,44 @@
 # Data Engineering Assignments
 
-# Assignment 1 - Shopping Dataset Analysis
+Weekly assignments completed as part of the CelebalTech Data Engineering internship program, covering Python, SQL, Cloud, and Big Data tools.
 
-## Overview
+---
 
-This project is the first assignment in the Data Engineering assignment series. The objective was to learn Python basics, perform exploratory data analysis (EDA), clean a dataset using Pandas, create derived features, and generate visual insights.
+## Assignment Index
 
-The analysis was performed on a shopping dataset containing product information such as prices, ratings, discounts, and categories.
+| Week   | Topic                                                    | Tools                               |
+| ------ | -------------------------------------------------------- | ----------------------------------- |
+| Week 1 | Basic Data Exploration and Cleaning                      | Python, Pandas, Matplotlib, Jupyter |
+| Week 2 | SQL-based Sales Data Analysis                            | Python, Pandas, MySQL               |
+| Week 3 | Advanced SQL — Subqueries, CTEs, Window Functions        | MySQL                               |
+| Week 4 | Azure Cloud Fundamentals and ADF Data Pipeline           | Azure Portal, ADF, Blob Storage     |
+| Week 5 | Spark Fundamentals — DataFrames, Cleaning, Aggregation   | PySpark, Jupyter                    |
+| Week 6 | Spark Architecture — Transformations, Parquet, Pipelines | PySpark                             |
+| Week 7 | Delta Lake MERGE and Incremental Data Processing         | Delta Lake, PySpark                 |
 
-## Dataset
+---
 
-- Dataset: Shopping Dataset
-- Records: 1000 products
-- Attributes: 24 columns
+## Week 1 — Basic Data Exploration and Cleaning
 
-## Tasks Performed
+**Objective:** Learn Python basics and perform EDA and data cleaning using Pandas.
 
-### Data Exploration
+- Loaded a shopping dataset (1,000 products, 24 columns) into a Pandas DataFrame
+- Explored shape, data types, missing values, and summary statistics
+- Cleaned price columns (string → numeric), handled nulls via median imputation
+- Engineered features: Final Price, Price Difference, Popularity Metric
+- Generated visualizations: rating histogram, category bar chart, price boxplot
 
-- Loaded the CSV dataset into a Pandas DataFrame.
-- Examined dataset shape, columns, data types, and summary statistics.
-- Identified missing values and duplicate records.
+**Output:** Jupyter Notebook + cleaned CSV
 
-### Data Cleaning
+---
 
-- Converted price-related columns from string format to numeric format.
-- Handled missing values in price columns using median imputation.
-- Replaced missing discount values with 0.
-- Checked and removed duplicate records when necessary.
+## Week 2 — SQL-based Sales Data Analysis
 
-### Feature Engineering
+**Objective:** Analyze sales data using SQL with filtering, aggregation, and business queries.
 
-Created the following derived features:
+- Normalized the Superstore CSV (9,994 rows) from a single denormalized table into 4 relational tables: `customers`, `products`, `orders`, `order_items`
+- Wrote queries across 5 sections covering basic selects, WHERE filters, GROUP BY aggregations, INNER/LEFT JOINs, and advanced CASE logic with transactions
 
-- **Final Price**: Calculated by applying the discount to the initial price.
-- **Price Difference**: Difference between initial price and final price.
-- **Popularity Metric**: Calculated using rating and ratings count.
+**Output:** Python load script + 5 SQL files (one per section)
 
-### Data Analysis
-
-Performed:
-
-- Filtering of highly rated products.
-- Column selection and data extraction.
-- Category-level analysis.
-- Price distribution analysis.
-
-### Visualizations
-
-Generated:
-
-- Rating Distribution Histogram
-- Category Distribution Bar Chart
-- Final Price Boxplot
-
-## Key Insights
-
-1. The dataset contains 1000 products with 24 attributes.
-2. Missing values of prices were handled using median imputation.
-3. Missing values of discount were replaced with 0.
-4. No duplicate records were found, though duplicate-removal logic was implemented.
-5. Price columns were converted from string format to numeric format.
-6. Final prices were recalculated using the available discount values.
-7. Price difference and popularity metrics were created for analysis.
-8. Product ratings are concentrated in the higher rating range, with most ratings between 4.0 and 4.5.
-9. Tops is the most common product category in the dataset.
-10. Most product prices lie between ₹200 and ₹3000, with a median around ₹900–₹1000. Several high-priced outliers extend up to approximately ₹17,000.
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
-## Project Structure
-
-```text
-assignment1-shopping-analysis/
-│
-├── data/
-│   ├── combined_dataset.csv
-│   └── cleaned_dataset.csv
-│
-├── notebook/
-│   └── assg1.ipynb
-│
-└── README.md
-```
+---
