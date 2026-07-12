@@ -42,3 +42,28 @@ Weekly assignments completed as part of the CelebalTech Data Engineering interns
 **Output:** Python load script + 5 SQL files (one per section)
 
 ---
+
+## Week 3 — Advanced SQL Analytics
+
+**Objective:** Apply Subqueries, CTEs, and Window Functions to analyze sales data.
+
+- Used subqueries to identify above-average sales and highest-value orders
+- Used CTEs for customer-level aggregations and intermediate calculations
+- Applied Window Functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`) for customer ranking
+- Combined JOINs, CTEs, and Window Functions for customer sales insights
+
+**Output:** SQL script + query results + insights
+
+---
+
+## Week 4 — Azure Cloud and ADF Pipeline
+
+**Objective:** Understand Azure fundamentals and build an end-to-end data pipeline.
+
+- Created Resource Group, Storage Account, and Blob Container on Azure Portal
+- Uploaded the Superstore dataset to Blob Storage
+- Built an Azure Data Factory pipeline using Get Metadata and Copy Data activities
+- Configured Linked Services, Datasets, and IAM roles
+- Executed and monitored a Blob → ADF → Destination pipeline
+
+**Output:** Screenshots + pipeline execution results + architecture summary
