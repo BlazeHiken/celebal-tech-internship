@@ -67,3 +67,17 @@ Weekly assignments completed as part of the CelebalTech Data Engineering interns
 - Executed and monitored a Blob → ADF → Destination pipeline
 
 **Output:** Screenshots + pipeline execution results + architecture summary
+
+---
+
+## Week 5 — Spark Fundamentals
+
+**Objective:** Understand Spark basics and perform data cleaning, transformation, and aggregation using DataFrames.
+
+- Created a Spark session and loaded CSV data into a DataFrame
+- Performed data cleaning: removed duplicates, handled nulls
+- Applied filters by age, category, and region
+- Used `groupBy()` with `count()`, `sum()`, `avg()`, `min()`, `max()`
+- Built a simple end-to-end pipeline: load → clean → filter → aggregate
+
+**Output:** PySpark notebook + results + brief insights
