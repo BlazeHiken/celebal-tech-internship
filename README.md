@@ -81,3 +81,18 @@ Weekly assignments completed as part of the CelebalTech Data Engineering interns
 - Built a simple end-to-end pipeline: load → clean → filter → aggregate
 
 **Output:** PySpark notebook + results + brief insights
+
+---
+
+## Week 6 — Spark Architecture and Optimized Processing
+
+**Objective:** Understand Spark architecture and perform efficient data processing.
+
+- Explored Spark architecture: Driver, Cluster Manager, Executors
+- Applied Lazy Evaluation and DAG concepts
+- Read and processed CSV and Parquet files with schema handling
+- Performed column renaming, type casting, and null handling
+- Understood wide transformations, shuffle, and Predicate Pushdown
+- Saved processed data in CSV and Parquet formats
+
+**Output:** PySpark code + execution results + performance insights
