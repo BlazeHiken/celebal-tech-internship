@@ -1,0 +1,31 @@
+customer_id,customer_name,segment,country,city,state,postal_code,region
+ES-14080,Erin Smith,Consumer,United States,Melbourne Heights,Florida,32935.0,South
+DH-13675,Duane Huffman,Corporate,United States,Quincy Heights,Massachusetts,2169.0,East
+SW-20755,Steven Ward,Home Office,United States,New York City Heights,New York,10009.0,East
+BF-10975,Barbara Fisher,Consumer,United States,Charlotte Heights,North Carolina,28205.0,South
+DW-13480,Dianna Wilson,Corporate,United States,Lakeville Heights,Minnesota,55044.0,Central
+KE-16420,Katrina Edelman,Home Office,United States,Bristol Heights,Tennessee,37620.0,South
+DM-13015,Darrin Martin,Consumer,United States,Encinitas Heights,California,92024.0,West
+TS-21370,Todd Sumrall,Corporate,United States,New York City Heights,New York,10035.0,East
+KB-16405,Katrina Bavinger,Home Office,United States,Apple Valley Heights,California,92307.0,West
+RS-19870,Roy Skaria,Consumer,United States,Burlington Heights,Iowa,52601.0,Central
+MC-17275,Marc Crier,Corporate,United States,Lafayette Heights,Louisiana,70506.0,South
+PK-19075,Pete Kriz,Home Office,United States,Madison Heights,Wisconsin,53711.0,Central
+JL-15505,Jeremy Lonsdale,Consumer,United States,New York City Heights,New York,10035.0,East
+MG-18205,Mitch Gastineau,Corporate,United States,Jacksonville Heights,Florida,32216.0,South
+SC-20800,Stuart Calhoun,Home Office,United States,Houston Heights,Texas,77041.0,Central
+SM-20005,Sally Matthias,Consumer,United States,New York City Heights,New York,10009.0,East
+JD-16060,Julia Dunbar,Corporate,United States,San Francisco Heights,California,94109.0,West
+MH-18025,Michelle Huthwaite,Home Office,United States,Seattle Heights,Washington,98115.0,West
+CS-12460,Chuck Sachs,Consumer,United States,Columbus Heights,Georgia,31907.0,South
+PV-18985,Paul Van Hugh,Corporate,United States,San Francisco Heights,California,94122.0,West
+NC-20000,New Customer 1,Consumer,United States,Miami,Florida,74291.0,West
+NC-20001,New Customer 2,Corporate,United States,Miami,Washington,89104.0,Central
+NC-20002,New Customer 3,Consumer,United States,Austin,Texas,69399.0,East
+NC-20003,New Customer 4,Corporate,United States,Miami,Colorado,89714.0,West
+NC-20004,New Customer 5,Home Office,United States,Austin,Texas,60428.0,Central
+NC-20005,New Customer 6,Home Office,United States,Boston,Texas,97731.0,West
+NC-20006,New Customer 7,Consumer,United States,Denver,Washington,10302.0,South
+NC-20007,New Customer 8,Consumer,United States,Denver,Florida,92558.0,West
+NC-20008,New Customer 9,Corporate,United States,Austin,Texas,10055.0,West
+NC-20009,New Customer 10,Corporate,United States,Denver,Colorado,18717.0,East

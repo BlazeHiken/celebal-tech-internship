@@ -5,3 +5,5 @@ fullreadme.md
 .env
 superstore_parquet/
 superstore_output_csv/
+spark-warehouse/
+delta/

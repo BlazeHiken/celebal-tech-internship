@@ -96,3 +96,17 @@ Weekly assignments completed as part of the CelebalTech Data Engineering interns
 - Saved processed data in CSV and Parquet formats
 
 **Output:** PySpark code + execution results + performance insights
+
+---
+
+## Week 7 — Delta Lake MERGE and Incremental Processing
+
+**Objective:** Perform incremental data processing using Delta Lake.
+
+- Loaded dataset into a Delta table
+- Cleaned data: handled nulls and removed duplicates
+- Created an incremental dataset simulating new/updated records
+- Applied `MERGE` operation to upsert records into the Delta table
+- Validated results: row counts, duplicate checks
+
+**Output:** Jupyter Notebook + screenshots + summary
