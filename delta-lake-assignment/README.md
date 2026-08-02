@@ -1,6 +1,6 @@
 # Delta Lake Incremental Processing Assignment
 
-Incremental data processing (SCD Type 1 and SCD Type 2) on a customer dataset derived from the Sample Superstore data, using PySpark and Delta Lake.
+Incremental data processing (SCD Type 1 and SCD Type 2) on a customer dataset derived from the Sample Superstore data, using PySpark and Delta Lake on Databricks.
 
 ## Objective
 
@@ -14,24 +14,18 @@ Load a customer dataset into a Delta table, clean it, simulate an incremental ba
 
 ## Environment
 
-Requires Java 11+, PySpark, and delta-spark.
+Run on Databricks Free Edition. Spark and Delta Lake are already built into the runtime, no local setup, no Java/Hadoop configuration needed.
 
-```bash
-pip install pyspark==3.5.3 delta-spark==3.2.0
-```
+Data files are uploaded to a Unity Catalog managed volume rather than DBFS, since the public DBFS root is disabled on Free Edition. Volume used in this notebook: `/Volumes/workspace/default/assignment_data/`.
 
-Note: pyspark 4.x and the latest delta-spark do not yet have a matching released build, this version pairing is the stable one.
-
-On Windows, Spark needs a local Hadoop winutils build to work with the local file system. This notebook expects `C:\hadoop\bin\winutils.exe` and `hadoop.dll` to be present, and sets `HADOOP_HOME` accordingly in the first cell.
-
-On first run, Spark resolves the `io.delta:delta-spark` package from Maven Central, so an internet connection is needed the first time the notebook runs (the JAR is cached locally after that).
+Delta tables in this notebook are accessed path-based via `DeltaTable.forPath(...)`, not registered as catalog tables with `CREATE TABLE ... LOCATION`, since Unity Catalog does not allow creating a table whose location points inside a volume.
 
 ## Notebook
 
 `notebooks/delta_scd_assignment.ipynb` covers:
 
 1. **Load data**: read the Superstore CSV, build a deduplicated customer master table, inject a few nulls and duplicate rows.
-2. **Load into a Delta table**: write the master data as an actual Delta table (not just a CSV or DataFrame).
+2. **Load into a Delta table**: write the master data as an actual Delta table at a path in the volume (not just a CSV or DataFrame).
 3. **Basic cleaning**: identify and drop null rows and exact duplicates, overwrite the Delta table with the cleaned version (798 rows down to 785).
 4. **Create incremental data**: simulate a new batch (20 updates, 10 new customers).
 5. **SCD Type 1 merge**: update matched rows in place, insert unmatched rows. No history is kept, only the latest state (785 rows to 795 rows).
@@ -69,6 +63,13 @@ delta-lake-assignment/
 ├── notebooks/
 │   └── delta_scd_assignment.ipynb
 ├── screenshots/
+│   ├── data_loading/
+│   ├── data_cleaning/
+│   ├── scd1/
+│   ├── scd2/
+│   ├── validation/
+│   └── final_output/
+├── screenshots-databricks/
 │   ├── data_loading/
 │   ├── data_cleaning/
 │   ├── scd1/
