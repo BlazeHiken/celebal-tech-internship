@@ -15,6 +15,7 @@ Weekly assignments completed as part of the CelebalTech Data Engineering interns
 | Week 5 | Spark Fundamentals — DataFrames, Cleaning, Aggregation   | PySpark, Jupyter                    |
 | Week 6 | Spark Architecture — Transformations, Parquet, Pipelines | PySpark                             |
 | Week 7 | Delta Lake MERGE and Incremental Data Processing         | Delta Lake, PySpark                 |
+| Week 8 | E-Commerce Order Analytics System                        | Python, Pandas, SQLite, SQL         |
 
 ---
 
@@ -110,3 +111,20 @@ Weekly assignments completed as part of the CelebalTech Data Engineering interns
 - Validated results: row counts, duplicate checks
 
 **Output:** Jupyter Notebook + screenshots + summary
+
+---
+
+## Week 8 — E-Commerce Order Analytics System
+
+**Objective:** Build a local data engineering and analytics pipeline using Python and SQL.
+
+* Generated 4 realistic e-commerce datasets with intentional data quality issues using Python
+* Cleaned and validated data using Pandas, including date standardization, product name normalization, email validation, and referential integrity checks
+* Loaded cleaned CSV data into a SQLite database with relational tables for customers, products, orders, and order items
+* Wrote 16 SQL analytics queries covering aggregations, CTEs, subqueries, and Window Functions such as `DENSE_RANK`, `LAG`, `NTILE`, `FIRST_VALUE`, and `LAST_VALUE`
+* Performed advanced analyses including revenue trends, customer segmentation, cohort retention, year-over-year comparison, and frequently purchased product pairs
+* Built a command-line reporting tool that generates daily, weekly, or monthly business summaries with period-over-period comparisons
+* Added edge-case tests for invalid order references, invalid discounts, zero quantities, and future order dates
+* Added an additional end-to-end verification script to rerun the pipeline and verify data generation, cleaning, database setup, SQL execution, and edge-case tests
+
+**Output:** Python scripts + cleaned CSVs + SQLite database + SQL analysis + CLI reporting tool + test and verification scripts

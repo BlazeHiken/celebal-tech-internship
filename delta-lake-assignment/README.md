@@ -69,12 +69,5 @@ delta-lake-assignment/
 │   ├── scd2/
 │   ├── validation/
 │   └── final_output/
-├── screenshots-databricks/
-│   ├── data_loading/
-│   ├── data_cleaning/
-│   ├── scd1/
-│   ├── scd2/
-│   ├── validation/
-│   └── final_output/
 └── README.md
 ```
