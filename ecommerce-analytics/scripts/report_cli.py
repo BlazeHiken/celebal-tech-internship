@@ -1,18 +1,25 @@
 import sqlite3
+import os
 from datetime import datetime, timedelta
 
 def get_date_range(report_type):
     print("Enter start date (YYYY-MM-DD):")
     start_date = input("> ").strip()
 
-    start = datetime.strptime(start_date, "%Y-%m-%d")
+    try:
+        start = datetime.strptime(start_date, "%Y-%m-%d")
+    except ValueError:
+        print("Invalid date format. Using today.")
+        start = datetime.today()
 
     if report_type == 'daily':
         end = start
     elif report_type == 'weekly':
         end = start + timedelta(days=6)
     elif report_type == 'monthly':
-        end = start + timedelta(days=30)  # We'll fix this later
+        end = start + timedelta(days=30)
+    else:
+        end = start
 
     return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
 
@@ -88,7 +95,12 @@ def fetch_top_products(conn, start_date, end_date):
     return cursor.fetchall()
 
 def main():
-    conn = sqlite3.connect('ecommerce.db')
+    db_path = 'ecommerce.db'
+    if not os.path.exists(db_path):
+        print(f"Error: Database {db_path} not found. Please run scripts/load_db.py first.")
+        return
+
+    conn = sqlite3.connect(db_path)
     
     print("=== E-Commerce Order Analytics System ===")
     report_type = get_report_type()

@@ -118,10 +118,10 @@ def main():
         
     # Save cleaned data
     print("Saving cleaned data...")
-    cleaned_orders.to_csv(os.path.join(clean_dir, 'orders.csv'), index=False)
-    cleaned_products.to_csv(os.path.join(clean_dir, 'products.csv'), index=False)
-    customers_df.to_csv(os.path.join(clean_dir, 'customers.csv'), index=False)
-    order_items_df.to_csv(os.path.join(clean_dir, 'order_items.csv'), index=False)
+    cleaned_orders.to_csv(os.path.join(clean_dir, 'orders_clean.csv'), index=False)
+    cleaned_products.to_csv(os.path.join(clean_dir, 'products_clean.csv'), index=False)
+    customers_df.to_csv(os.path.join(clean_dir, 'customers_clean.csv'), index=False)
+    order_items_df.to_csv(os.path.join(clean_dir, 'order_items_clean.csv'), index=False)
     
     # Save report
     report_path = os.path.join(clean_dir, 'cleaning_report.txt')

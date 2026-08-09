@@ -2,14 +2,14 @@ Data Cleaning Report
 ====================
 
 Orders Issues:
-- Found 58 orders with NULL or empty customer_id. Filled with 'UNKNOWN'.
+- Found 50 orders with NULL or empty customer_id. Filled with 'UNKNOWN'.
 
 Products Issues:
-- Fixed 84 product names (trimmed spaces and applied title case).
+- Fixed 83 product names (trimmed spaces and applied title case).
 
 Email Validation Issues:
-- Found 16 invalid emails.
-  Customer IDs: CUST_3D686465, CUST_341FBD74, CUST_935A9A7C, CUST_2653D4FB, CUST_05389E20 ...
+- Found 12 invalid emails.
+  Customer IDs: CUST_85F2FDD8, CUST_296886BA, CUST_0C5DEB1C, CUST_D1D27CA8, CUST_961416E7 ...
 
 Referential Integrity Issues:
 - All order_items reference valid orders.

@@ -1,0 +1,87 @@
+1. Objective
+ 
+Design and develop an end-to-end e-commerce order analytics system combining Python and SQL — from dataset generation to business reporting.
+ 
+2. Steps to Follow
+ 
+Step 1: Generate Realistic Datasets
+- Use Python (Faker/random) to generate tables: customers, products, orders, order_items
+- Intentionally introduce inconsistencies (nulls, duplicates, mismatched IDs, invalid dates)
+- Export as CSV files
+ 
+Step 2: Data Cleaning with Pandas
+- Load all CSVs into DataFrames
+- Handle missing values, duplicates, and data type issues
+- Validate referential integrity across tables (e.g., order IDs matching between orders and order_items)
+- Export cleaned datasets
+ 
+Step 3: Load into SQL Database
+- Create database schema with proper constraints (PK, FK, NOT NULL)
+- Load cleaned data into SQL tables (SQLite / MySQL / PostgreSQL)
+- Verify row counts and relationships
+ 
+Step 4: SQL Analytics – Joins & Aggregations
+- Total revenue per customer, per category, per month
+- Top products by quantity sold and revenue
+- Average order value (AOV) by customer segment
+- Use JOINs across all tables
+ 
+Step 5: SQL Analytics – Window Functions & CTEs
+- Rank customers by lifetime value using RANK() / DENSE_RANK()
+- Calculate running totals and moving averages using SUM() OVER / AVG() OVER
+- Use CTEs for multi-step aggregations (e.g., monthly revenue → growth rate)
+ 
+Step 6: Cohort & Retention Analysis
+- Define customer cohorts by first purchase month
+- Calculate monthly retention rates per cohort
+- Identify churned vs repeat customers
+ 
+Step 7: Customer Segmentation
+- Segment customers by purchase frequency (one-time, occasional, loyal)
+- Segment by spend tier (low, medium, high)
+- Combine metrics for RFM-style analysis (Recency, Frequency, Monetary)
+ 
+Step 8: Build CLI Reporting Tool
+- Create a Python command-line tool that accepts arguments (e.g., --report revenue, --report top_customers, --report retention)
+- Connect to the SQL database and run queries dynamically
+- Format and print results as tables using tabulate or similar library
+ 
+Step 9: Edge Case Handling
+- Handle empty result sets gracefully
+- Validate user inputs in CLI tool
+- Handle database connection errors
+- Test with edge cases (zero orders, single customer, future dates)
+ 
+Step 10: Document & Submit
+- Write a README explaining the system architecture and how to run it
+- Include sample output screenshots
+ 
+3. Output
+- Python scripts (data generation + cleaning + CLI tool) + SQL queries + sample output + README
+ 
+4. GitHub Submission
+ 
+ecommerce-analytics-system/
+│── data/
+│   ├── raw/
+│   │   ├── customers.csv
+│   │   ├── products.csv
+│   │   ├── orders.csv
+│   │   └── order_items.csv
+│   └── cleaned/
+│       ├── customers_clean.csv
+│       ├── products_clean.csv
+│       ├── orders_clean.csv
+│       └── order_items_clean.csv
+│── scripts/
+│   ├── generate_data.py
+│   ├── clean_data.py
+│   └── report_cli.py
+│── sql/
+│   ├── schema.sql
+│   ├── aggregations.sql
+│   ├── window_functions.sql
+│   └── cohort_analysis.sql
+│── output/
+│   └── sample_reports/
+│── README.md

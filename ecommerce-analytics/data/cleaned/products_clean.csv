@@ -1,15 +1,15 @@
 product_id,product_name,category,subcategory,cost_price
-PROD_08C779C1,LAPTOPS PRO   ,Electronics,Laptops,58.33
+PROD_08C779C1,Laptops Pro,Electronics,Laptops,58.33
 PROD_8F75D8D5,Lighting Pro,Home,Lighting,331.25
-PROD_FCBBBBFE,KIDS LITE   ,Clothing,Kids,476.42
+PROD_FCBBBBFE,Kids Lite,Clothing,Kids,476.42
 PROD_E8B91FE8,Comics Basic,Books,Comics,88.89
 PROD_780BCFCE,Furniture Model X,Home,Furniture,242.33
-PROD_41679569,  non-fiction pro  ,Books,Non-Fiction,209.19
+PROD_41679569,Non-Fiction Pro,Books,Non-Fiction,209.19
 PROD_E9EB923C,Kids Ultra,Clothing,Kids,310.35
-PROD_DAABADAA,  non-fiction advanced  ,Books,Non-Fiction,253.34
+PROD_DAABADAA,Non-Fiction Advanced,Books,Non-Fiction,253.34
 PROD_2478345F,Kids Pro,Clothing,Kids,331.0
 PROD_9379C793,Kids Ultra,Clothing,Kids,203.02
-PROD_D0064CBB,ACTIVEWEAR LITE   ,Clothing,Activewear,498.54
+PROD_D0064CBB,Activewear Lite,Clothing,Activewear,498.54
 PROD_A91E3AAE,Non-Fiction Model X,Books,Non-Fiction,153.75
 PROD_D6F265EE,Men Basic,Clothing,Men,398.06
 PROD_E540D412,Cameras Basic,Electronics,Cameras,291.23
@@ -19,14 +19,14 @@ PROD_698D70F8,Cameras Ultra,Electronics,Cameras,478.46
 PROD_A3DA82AF,Phones Ultra,Electronics,Phones,425.08
 PROD_2F8F8A54,Women Advanced,Clothing,Women,22.47
 PROD_F5EFBE78,Educational Advanced,Books,Educational,36.25
-PROD_E5955AC8,COMICS MODEL X   ,Books,Comics,490.4
+PROD_E5955AC8,Comics Model X,Books,Comics,490.4
 PROD_186B5CB5,Cameras Advanced,Electronics,Cameras,82.14
 PROD_7DFA013E,Kitchen Max,Home,Kitchen,472.13
 PROD_F00320E7,Fiction Max,Books,Fiction,117.87
 PROD_17B6F669,Non-Fiction Pro,Books,Non-Fiction,177.85
 PROD_30861756,Activewear Basic,Clothing,Activewear,445.5
 PROD_CAA55C8C,Biography Model X,Books,Biography,159.89
-PROD_156C8828,  men lite  ,Clothing,Men,124.17
+PROD_156C8828,Men Lite,Clothing,Men,124.17
 PROD_EB3A37BB,Women Ultra,Clothing,Women,250.89
 PROD_C3BCA5F3,Men Lite,Clothing,Men,273.12
 PROD_BABDE39F,Fiction Lite,Books,Fiction,451.1
@@ -36,7 +36,7 @@ PROD_3ED8A65B,Bedding Pro,Home,Bedding,296.04
 PROD_3212DE70,Cameras Ultra,Electronics,Cameras,438.43
 PROD_A3CC8F9E,Bedding Pro,Home,Bedding,164.74
 PROD_94D8C401,Laptops Ultra,Electronics,Laptops,313.01
-PROD_1D9C4F4A,LAPTOPS BASIC   ,Electronics,Laptops,150.91
+PROD_1D9C4F4A,Laptops Basic,Electronics,Laptops,150.91
 PROD_4B97E71E,Shoes Max,Clothing,Shoes,370.9
 PROD_A619431A,Comics Ultra,Books,Comics,132.1
 PROD_3976AF76,Phones Basic,Electronics,Phones,306.57
@@ -59,15 +59,15 @@ PROD_CAEDBCB0,Men Model X,Clothing,Men,215.8
 PROD_3BCF62C6,Kitchen Model X,Home,Kitchen,224.27
 PROD_AF413F60,Kitchen Lite,Home,Kitchen,464.5
 PROD_D3EA66E9,Fiction Ultra,Books,Fiction,139.57
-PROD_0260B3FC,DECOR ULTRA   ,Home,Decor,158.28
+PROD_0260B3FC,Decor Ultra,Home,Decor,158.28
 PROD_437B8629,Decor Basic,Home,Decor,162.31
 PROD_8D828B38,Women Basic,Clothing,Women,480.1
-PROD_CFA8532E,  phones lite  ,Electronics,Phones,109.48
+PROD_CFA8532E,Phones Lite,Electronics,Phones,109.48
 PROD_2FA76A08,Tablets Pro,Electronics,Tablets,244.9
 PROD_E2193E1F,Laptops Model X,Electronics,Laptops,393.26
 PROD_C3EF376E,Shoes Ultra,Clothing,Shoes,411.6
 PROD_4AE93BCD,Women Ultra,Clothing,Women,464.15
-PROD_5AD59932,  tablets lite  ,Electronics,Tablets,25.41
+PROD_5AD59932,Tablets Lite,Electronics,Tablets,25.41
 PROD_3987DBF1,Lighting Model X,Home,Lighting,319.07
 PROD_B2C953D7,Women Max,Clothing,Women,315.58
 PROD_6433AB7C,Accessories Pro,Electronics,Accessories,213.63
@@ -75,7 +75,7 @@ PROD_C91DF400,Laptops Ultra,Electronics,Laptops,262.3
 PROD_E0EED6AC,Cameras Ultra,Electronics,Cameras,168.98
 PROD_3A804B34,Shoes Lite,Clothing,Shoes,485.72
 PROD_54E040EA,Phones Advanced,Electronics,Phones,28.5
-PROD_72AA65AA,FURNITURE LITE   ,Home,Furniture,144.65
+PROD_72AA65AA,Furniture Lite,Home,Furniture,144.65
 PROD_DF61D4BC,Non-Fiction Model X,Books,Non-Fiction,61.34
 PROD_7E993215,Men Lite,Clothing,Men,67.85
 PROD_91533142,Educational Max,Books,Educational,117.94
@@ -84,16 +84,16 @@ PROD_EE684BAA,Kids Model X,Clothing,Kids,321.14
 PROD_0B2B820F,Furniture Basic,Home,Furniture,24.55
 PROD_91D1988E,Lighting Ultra,Home,Lighting,416.34
 PROD_140CAA9E,Lighting Advanced,Home,Lighting,172.16
-PROD_09B393D4,  decor advanced  ,Home,Decor,410.28
-PROD_47C99514,  fiction model x  ,Books,Fiction,141.96
+PROD_09B393D4,Decor Advanced,Home,Decor,410.28
+PROD_47C99514,Fiction Model X,Books,Fiction,141.96
 PROD_B2E59FF2,Laptops Pro,Electronics,Laptops,225.84
 PROD_03B1245C,Laptops Model X,Electronics,Laptops,154.81
 PROD_5F25611E,Phones Lite,Electronics,Phones,434.62
 PROD_A69E9FCE,Shoes Basic,Clothing,Shoes,436.27
-PROD_5D60C409,COMICS LITE   ,Books,Comics,172.82
+PROD_5D60C409,Comics Lite,Books,Comics,172.82
 PROD_A6E83DF0,Biography Max,Books,Biography,30.28
 PROD_1F8CD2C2,Tablets Max,Electronics,Tablets,52.48
-PROD_CCE42FDB,FICTION LITE   ,Books,Fiction,202.25
+PROD_CCE42FDB,Fiction Lite,Books,Fiction,202.25
 PROD_EF5C6131,Comics Max,Books,Comics,476.0
 PROD_C1BB4691,Bedding Basic,Home,Bedding,38.07
 PROD_EF13F86E,Kids Pro,Clothing,Kids,415.71
@@ -104,7 +104,7 @@ PROD_F46A5367,Phones Advanced,Electronics,Phones,206.81
 PROD_2A8A1B22,Lighting Max,Home,Lighting,265.73
 PROD_DFE3398C,Lighting Ultra,Home,Lighting,447.52
 PROD_1FA2EE7B,Non-Fiction Ultra,Books,Non-Fiction,467.84
-PROD_9E99CD2A,LIGHTING ADVANCED   ,Home,Lighting,422.19
+PROD_9E99CD2A,Lighting Advanced,Home,Lighting,422.19
 PROD_B7C93E05,Cameras Basic,Electronics,Cameras,154.5
 PROD_7FCE1230,Bedding Model X,Home,Bedding,335.5
 PROD_CB3DFB30,Bedding Model X,Home,Bedding,87.61
@@ -114,17 +114,17 @@ PROD_8CFFB566,Laptops Max,Electronics,Laptops,390.04
 PROD_DAC2F675,Kids Max,Clothing,Kids,275.09
 PROD_1A3496AE,Phones Ultra,Electronics,Phones,58.6
 PROD_77FF94C9,Accessories Ultra,Electronics,Accessories,94.86
-PROD_65729DA1,ACCESSORIES MAX   ,Electronics,Accessories,159.55
+PROD_65729DA1,Accessories Max,Electronics,Accessories,159.55
 PROD_FC1D5B6F,Men Advanced,Clothing,Men,31.1
 PROD_79D2A1C5,Furniture Lite,Home,Furniture,232.64
 PROD_198D511C,Accessories Lite,Electronics,Accessories,138.68
-PROD_2BDBAD9D,ACCESSORIES MAX   ,Electronics,Accessories,379.99
+PROD_2BDBAD9D,Accessories Max,Electronics,Accessories,379.99
 PROD_487D6906,Men Model X,Clothing,Men,343.22
 PROD_71A2555D,Phones Model X,Electronics,Phones,479.05
 PROD_412F26F7,Lighting Model X,Home,Lighting,480.55
 PROD_BC3BD808,Accessories Max,Electronics,Accessories,219.87
 PROD_A843D5EA,Non-Fiction Advanced,Books,Non-Fiction,92.97
-PROD_C5B68ABC,KIDS MAX   ,Clothing,Kids,291.92
+PROD_C5B68ABC,Kids Max,Clothing,Kids,291.92
 PROD_6494FA22,Accessories Max,Electronics,Accessories,85.3
 PROD_7B8F2D4D,Kitchen Model X,Home,Kitchen,182.82
 PROD_966F2840,Women Advanced,Clothing,Women,357.03
@@ -132,7 +132,7 @@ PROD_069A8302,Comics Pro,Books,Comics,124.69
 PROD_1F621027,Comics Max,Books,Comics,447.74
 PROD_49FC3E03,Kitchen Ultra,Home,Kitchen,126.47
 PROD_C1B88E8E,Activewear Max,Clothing,Activewear,383.14
-PROD_88A6D0D1,KITCHEN LITE   ,Home,Kitchen,79.47
+PROD_88A6D0D1,Kitchen Lite,Home,Kitchen,79.47
 PROD_768EE182,Tablets Pro,Electronics,Tablets,314.78
 PROD_B8A0AB3B,Accessories Pro,Electronics,Accessories,143.48
 PROD_EFC02AE2,Activewear Lite,Clothing,Activewear,309.17
@@ -152,7 +152,7 @@ PROD_DC14B817,Cameras Basic,Electronics,Cameras,19.94
 PROD_3437F4E2,Furniture Model X,Home,Furniture,281.54
 PROD_6D57C549,Biography Pro,Books,Biography,101.04
 PROD_4919EDB1,Tablets Pro,Electronics,Tablets,324.09
-PROD_ED37B465,ACTIVEWEAR ULTRA   ,Clothing,Activewear,447.85
+PROD_ED37B465,Activewear Ultra,Clothing,Activewear,447.85
 PROD_352F6438,Accessories Lite,Electronics,Accessories,179.52
 PROD_8FE9B594,Educational Pro,Books,Educational,68.1
 PROD_837CF985,Cameras Basic,Electronics,Cameras,189.07
@@ -160,10 +160,10 @@ PROD_3B38BF54,Furniture Pro,Home,Furniture,468.71
 PROD_A0376E0A,Shoes Max,Clothing,Shoes,38.92
 PROD_5DE8F93B,Decor Ultra,Home,Decor,90.5
 PROD_FC545259,Fiction Ultra,Books,Fiction,468.21
-PROD_AF8C074C,PHONES BASIC   ,Electronics,Phones,188.92
+PROD_AF8C074C,Phones Basic,Electronics,Phones,188.92
 PROD_290629EE,Decor Advanced,Home,Decor,457.17
 PROD_CC88160C,Kids Lite,Clothing,Kids,460.41
-PROD_B304BE85,BEDDING BASIC   ,Home,Bedding,403.22
+PROD_B304BE85,Bedding Basic,Home,Bedding,403.22
 PROD_D96437D3,Comics Lite,Books,Comics,150.35
 PROD_9A42A740,Activewear Advanced,Clothing,Activewear,316.89
 PROD_3B4AD42C,Biography Pro,Books,Biography,330.23
@@ -174,10 +174,10 @@ PROD_819851A7,Women Lite,Clothing,Women,390.49
 PROD_1727CA1F,Decor Ultra,Home,Decor,453.63
 PROD_3B0AFF57,Bedding Basic,Home,Bedding,119.77
 PROD_934BF174,Non-Fiction Basic,Books,Non-Fiction,495.64
-PROD_56D44948,ACTIVEWEAR BASIC   ,Clothing,Activewear,290.51
+PROD_56D44948,Activewear Basic,Clothing,Activewear,290.51
 PROD_04E6B7BD,Bedding Advanced,Home,Bedding,180.21
 PROD_B1227F58,Comics Max,Books,Comics,220.48
-PROD_D76B3C79,  kids max  ,Clothing,Kids,489.86
+PROD_D76B3C79,Kids Max,Clothing,Kids,489.86
 PROD_3AC9F6F8,Phones Model X,Electronics,Phones,54.75
 PROD_FD11B10B,Cameras Pro,Electronics,Cameras,359.95
 PROD_202182D6,Lighting Ultra,Home,Lighting,221.7
@@ -188,7 +188,7 @@ PROD_B8A9BE75,Fiction Pro,Books,Fiction,288.3
 PROD_F10313C9,Phones Lite,Electronics,Phones,186.45
 PROD_3FDDDE17,Furniture Max,Home,Furniture,147.66
 PROD_5AD4A75B,Lighting Max,Home,Lighting,85.68
-PROD_32985588,COMICS MAX   ,Books,Comics,357.1
+PROD_32985588,Comics Max,Books,Comics,357.1
 PROD_862FAB6B,Educational Basic,Books,Educational,280.64
 PROD_087A35C9,Lighting Advanced,Home,Lighting,469.18
 PROD_BBA618B9,Non-Fiction Pro,Books,Non-Fiction,464.79
@@ -197,34 +197,34 @@ PROD_140E5B53,Cameras Advanced,Electronics,Cameras,129.19
 PROD_CC0BAB29,Kids Ultra,Clothing,Kids,345.47
 PROD_6A79B8CF,Bedding Basic,Home,Bedding,93.58
 PROD_7FDF27D8,Kids Pro,Clothing,Kids,419.46
-PROD_27F7B513,  lighting ultra  ,Home,Lighting,414.84
-PROD_32761E2D,  kids advanced  ,Clothing,Kids,108.91
+PROD_27F7B513,Lighting Ultra,Home,Lighting,414.84
+PROD_32761E2D,Kids Advanced,Clothing,Kids,108.91
 PROD_DEF898B5,Comics Lite,Books,Comics,107.97
 PROD_55C4F24E,Comics Pro,Books,Comics,375.52
 PROD_F3E1B1D7,Non-Fiction Model X,Books,Non-Fiction,155.37
 PROD_BB351997,Kids Basic,Clothing,Kids,286.22
 PROD_6EDCCBF2,Accessories Pro,Electronics,Accessories,291.05
-PROD_028F0580,  shoes basic  ,Clothing,Shoes,466.73
+PROD_028F0580,Shoes Basic,Clothing,Shoes,466.73
 PROD_38171DBC,Decor Max,Home,Decor,215.04
 PROD_D50ECB81,Laptops Lite,Electronics,Laptops,236.52
-PROD_2A5551AC,TABLETS ULTRA   ,Electronics,Tablets,149.81
+PROD_2A5551AC,Tablets Ultra,Electronics,Tablets,149.81
 PROD_E11B29EB,Decor Basic,Home,Decor,486.83
 PROD_BD29E7F5,Laptops Model X,Electronics,Laptops,230.95
 PROD_41289F6F,Tablets Ultra,Electronics,Tablets,275.87
-PROD_271C6FC3,LAPTOPS LITE   ,Electronics,Laptops,273.42
+PROD_271C6FC3,Laptops Lite,Electronics,Laptops,273.42
 PROD_8E03CD78,Furniture Lite,Home,Furniture,315.09
 PROD_53A3F624,Kitchen Advanced,Home,Kitchen,248.83
 PROD_3F7E0D2B,Educational Pro,Books,Educational,404.98
 PROD_B8096350,Kitchen Max,Home,Kitchen,62.17
 PROD_D4D7E73A,Cameras Ultra,Electronics,Cameras,109.32
 PROD_B6232DFF,Lighting Model X,Home,Lighting,25.44
-PROD_03C9487B,LIGHTING ADVANCED   ,Home,Lighting,75.6
-PROD_ACACFA9C,  decor lite  ,Home,Decor,6.83
+PROD_03C9487B,Lighting Advanced,Home,Lighting,75.6
+PROD_ACACFA9C,Decor Lite,Home,Decor,6.83
 PROD_A1552CFC,Men Basic,Clothing,Men,94.09
 PROD_EBE833B4,Women Basic,Clothing,Women,18.87
 PROD_CBA08635,Men Lite,Clothing,Men,395.03
 PROD_42160890,Bedding Lite,Home,Bedding,218.26
-PROD_C76DE9B8,  educational pro  ,Books,Educational,249.03
+PROD_C76DE9B8,Educational Pro,Books,Educational,249.03
 PROD_43629DC8,Educational Ultra,Books,Educational,330.67
 PROD_7D06E4A9,Activewear Basic,Clothing,Activewear,65.24
 PROD_6A376C35,Fiction Max,Books,Fiction,481.03
@@ -235,13 +235,13 @@ PROD_6CA1BB96,Tablets Advanced,Electronics,Tablets,165.48
 PROD_0C0C030E,Educational Pro,Books,Educational,212.81
 PROD_A2FFD2FA,Accessories Lite,Electronics,Accessories,240.17
 PROD_B51D2F2F,Shoes Advanced,Clothing,Shoes,489.54
-PROD_7E631A99,  decor basic  ,Home,Decor,418.05
+PROD_7E631A99,Decor Basic,Home,Decor,418.05
 PROD_29CF0839,Kids Model X,Clothing,Kids,64.49
 PROD_B2C7168D,Laptops Pro,Electronics,Laptops,214.1
-PROD_B8B14C3C,  decor model x  ,Home,Decor,432.14
+PROD_B8B14C3C,Decor Model X,Home,Decor,432.14
 PROD_0B0719BD,Decor Ultra,Home,Decor,41.38
-PROD_26B17524,NON-FICTION MAX   ,Books,Non-Fiction,308.87
-PROD_11C96473,LIGHTING BASIC   ,Home,Lighting,325.24
+PROD_26B17524,Non-Fiction Max,Books,Non-Fiction,308.87
+PROD_11C96473,Lighting Basic,Home,Lighting,325.24
 PROD_7DF382C7,Shoes Ultra,Clothing,Shoes,255.12
 PROD_52DC4C5B,Tablets Ultra,Electronics,Tablets,362.68
 PROD_312F3649,Kids Model X,Clothing,Kids,10.83
@@ -251,23 +251,23 @@ PROD_8AB67E0B,Women Basic,Clothing,Women,186.34
 PROD_A02DFAA0,Comics Max,Books,Comics,388.25
 PROD_D7B5ABC7,Lighting Basic,Home,Lighting,83.81
 PROD_C7A14B2D,Lighting Lite,Home,Lighting,7.74
-PROD_2D8D3282,  kids ultra  ,Clothing,Kids,198.13
-PROD_A92EC28F,BEDDING ADVANCED   ,Home,Bedding,299.45
+PROD_2D8D3282,Kids Ultra,Clothing,Kids,198.13
+PROD_A92EC28F,Bedding Advanced,Home,Bedding,299.45
 PROD_72C10777,Kids Ultra,Clothing,Kids,334.15
-PROD_563F6964,  shoes lite  ,Clothing,Shoes,7.48
+PROD_563F6964,Shoes Lite,Clothing,Shoes,7.48
 PROD_8585C962,Decor Pro,Home,Decor,121.79
 PROD_2210704C,Bedding Ultra,Home,Bedding,185.38
-PROD_E5CAA302,ACCESSORIES ULTRA   ,Electronics,Accessories,67.19
+PROD_E5CAA302,Accessories Ultra,Electronics,Accessories,67.19
 PROD_9FE0473C,Shoes Model X,Clothing,Shoes,447.22
 PROD_73AFF189,Fiction Pro,Books,Fiction,227.16
 PROD_768207FE,Comics Pro,Books,Comics,115.78
 PROD_6D7F791D,Decor Ultra,Home,Decor,408.18
 PROD_AF9CFF46,Comics Max,Books,Comics,380.85
 PROD_63AF3FD2,Educational Lite,Books,Educational,18.37
-PROD_111B4FB4,  kids lite  ,Clothing,Kids,42.35
+PROD_111B4FB4,Kids Lite,Clothing,Kids,42.35
 PROD_C8008ECC,Furniture Ultra,Home,Furniture,211.31
 PROD_DF2ACC05,Furniture Model X,Home,Furniture,411.93
-PROD_4DE71A6D,FURNITURE BASIC   ,Home,Furniture,311.76
+PROD_4DE71A6D,Furniture Basic,Home,Furniture,311.76
 PROD_EE423D5B,Accessories Basic,Electronics,Accessories,328.94
 PROD_AB76F18B,Tablets Lite,Electronics,Tablets,110.12
 PROD_691578E3,Fiction Basic,Books,Fiction,58.49
@@ -275,7 +275,7 @@ PROD_1B1182AD,Kids Model X,Clothing,Kids,398.55
 PROD_30A0C408,Non-Fiction Pro,Books,Non-Fiction,442.29
 PROD_C3A768EF,Bedding Model X,Home,Bedding,467.2
 PROD_49DD2249,Activewear Lite,Clothing,Activewear,72.26
-PROD_E50DC2E8,  non-fiction max  ,Books,Non-Fiction,59.74
+PROD_E50DC2E8,Non-Fiction Max,Books,Non-Fiction,59.74
 PROD_DCA59AB9,Women Basic,Clothing,Women,414.79
 PROD_9AAD0328,Bedding Basic,Home,Bedding,456.25
 PROD_D92B2E77,Cameras Lite,Electronics,Cameras,57.16
@@ -284,7 +284,7 @@ PROD_095A3ED0,Shoes Lite,Clothing,Shoes,476.65
 PROD_D56B4051,Kitchen Pro,Home,Kitchen,187.4
 PROD_C98694A0,Activewear Ultra,Clothing,Activewear,319.2
 PROD_40CFD161,Fiction Advanced,Books,Fiction,463.77
-PROD_B26585A2,  furniture pro  ,Home,Furniture,343.99
+PROD_B26585A2,Furniture Pro,Home,Furniture,343.99
 PROD_06D34D49,Men Model X,Clothing,Men,368.33
 PROD_F46D5E8D,Kids Basic,Clothing,Kids,471.33
 PROD_6DAD2308,Laptops Lite,Electronics,Laptops,169.33
@@ -295,36 +295,36 @@ PROD_7E999A51,Lighting Advanced,Home,Lighting,48.88
 PROD_810D360D,Women Advanced,Clothing,Women,390.19
 PROD_B23C8124,Comics Max,Books,Comics,313.24
 PROD_BAE34CB3,Decor Pro,Home,Decor,88.21
-PROD_7F893CF8,  bedding basic  ,Home,Bedding,318.72
+PROD_7F893CF8,Bedding Basic,Home,Bedding,318.72
 PROD_12CC1807,Tablets Max,Electronics,Tablets,57.93
 PROD_09F427D3,Kitchen Lite,Home,Kitchen,423.95
 PROD_892915F8,Fiction Pro,Books,Fiction,226.92
 PROD_145FB06E,Comics Basic,Books,Comics,89.08
 PROD_4330ECFB,Phones Basic,Electronics,Phones,181.3
 PROD_03743D1A,Kitchen Model X,Home,Kitchen,155.46
-PROD_91F2D50C,PHONES BASIC   ,Electronics,Phones,390.44
+PROD_91F2D50C,Phones Basic,Electronics,Phones,390.44
 PROD_010DBD9A,Phones Pro,Electronics,Phones,65.46
 PROD_E1AB8508,Shoes Ultra,Clothing,Shoes,48.43
-PROD_71CC9C79,  decor ultra  ,Home,Decor,27.08
+PROD_71CC9C79,Decor Ultra,Home,Decor,27.08
 PROD_347E63F6,Men Basic,Clothing,Men,131.2
 PROD_659C100C,Biography Max,Books,Biography,263.7
 PROD_E9C1A143,Accessories Ultra,Electronics,Accessories,209.94
-PROD_6E13B1C5,  phones pro  ,Electronics,Phones,434.53
+PROD_6E13B1C5,Phones Pro,Electronics,Phones,434.53
 PROD_99DBD9B0,Laptops Ultra,Electronics,Laptops,111.81
 PROD_D555AD09,Shoes Advanced,Clothing,Shoes,120.51
 PROD_68D0F765,Tablets Ultra,Electronics,Tablets,336.8
 PROD_A79DC89D,Tablets Model X,Electronics,Tablets,137.43
 PROD_1762BF90,Non-Fiction Max,Books,Non-Fiction,74.26
-PROD_5CC320F0,BEDDING ADVANCED   ,Home,Bedding,11.48
+PROD_5CC320F0,Bedding Advanced,Home,Bedding,11.48
 PROD_94AC2DFB,Tablets Lite,Electronics,Tablets,411.34
 PROD_FE9B227F,Biography Basic,Books,Biography,279.0
 PROD_502E6868,Kids Lite,Clothing,Kids,286.45
 PROD_AE5AFEB0,Tablets Ultra,Electronics,Tablets,361.72
-PROD_DB3CD18E,  shoes basic  ,Clothing,Shoes,223.79
+PROD_DB3CD18E,Shoes Basic,Clothing,Shoes,223.79
 PROD_9ADB3567,Laptops Basic,Electronics,Laptops,453.55
 PROD_81245276,Fiction Model X,Books,Fiction,231.59
 PROD_669E2C8D,Furniture Lite,Home,Furniture,477.13
-PROD_3E6A998C,LAPTOPS ULTRA   ,Electronics,Laptops,260.85
+PROD_3E6A998C,Laptops Ultra,Electronics,Laptops,260.85
 PROD_0CD4F14A,Comics Pro,Books,Comics,304.26
 PROD_FF59524B,Phones Ultra,Electronics,Phones,432.94
 PROD_1C6E0E67,Non-Fiction Lite,Books,Non-Fiction,448.58
@@ -339,41 +339,41 @@ PROD_4324079C,Comics Model X,Books,Comics,493.19
 PROD_FEF9F26F,Accessories Pro,Electronics,Accessories,239.04
 PROD_EF1E90E8,Accessories Max,Electronics,Accessories,202.84
 PROD_F656A06C,Men Model X,Clothing,Men,186.64
-PROD_D3775ECF,ACCESSORIES PRO   ,Electronics,Accessories,447.62
+PROD_D3775ECF,Accessories Pro,Electronics,Accessories,447.62
 PROD_1A0DEE00,Laptops Max,Electronics,Laptops,103.62
 PROD_2CF48C54,Kids Lite,Clothing,Kids,477.73
 PROD_0D9C56DB,Laptops Model X,Electronics,Laptops,455.7
 PROD_A7DF2977,Activewear Advanced,Clothing,Activewear,289.95
-PROD_F23488D7,  activewear ultra  ,Clothing,Activewear,367.83
+PROD_F23488D7,Activewear Ultra,Clothing,Activewear,367.83
 PROD_8BD479BE,Furniture Basic,Home,Furniture,224.95
 PROD_82D79464,Fiction Lite,Books,Fiction,471.36
 PROD_F258847A,Laptops Max,Electronics,Laptops,291.07
-PROD_E2D29A8E,  non-fiction basic  ,Books,Non-Fiction,198.51
+PROD_E2D29A8E,Non-Fiction Basic,Books,Non-Fiction,198.51
 PROD_BC9E051E,Educational Basic,Books,Educational,399.62
 PROD_21B795B7,Biography Pro,Books,Biography,269.25
 PROD_264BB594,Furniture Max,Home,Furniture,70.04
-PROD_44BC4CE6,ACCESSORIES ADVANCED   ,Electronics,Accessories,27.38
+PROD_44BC4CE6,Accessories Advanced,Electronics,Accessories,27.38
 PROD_F53A9F9F,Men Lite,Clothing,Men,491.08
 PROD_8922F2C0,Kitchen Pro,Home,Kitchen,44.33
 PROD_A08E3CCB,Laptops Pro,Electronics,Laptops,299.86
 PROD_7E64E098,Furniture Advanced,Home,Furniture,396.58
 PROD_AAF79696,Phones Advanced,Electronics,Phones,136.94
 PROD_E2B350E6,Shoes Max,Clothing,Shoes,416.2
-PROD_BD313EFE,EDUCATIONAL MODEL X   ,Books,Educational,242.31
+PROD_BD313EFE,Educational Model X,Books,Educational,242.31
 PROD_4532D7DE,Fiction Model X,Books,Fiction,302.19
 PROD_FC4B69FC,Accessories Ultra,Electronics,Accessories,109.46
 PROD_2282D652,Kitchen Pro,Home,Kitchen,403.09
 PROD_EF03CB22,Laptops Lite,Electronics,Laptops,256.22
-PROD_2DFC0F60,TABLETS PRO   ,Electronics,Tablets,306.92
+PROD_2DFC0F60,Tablets Pro,Electronics,Tablets,306.92
 PROD_E3880D2B,Educational Pro,Books,Educational,339.23
 PROD_D785C928,Educational Model X,Books,Educational,6.95
-PROD_D2126E1C,NON-FICTION MAX   ,Books,Non-Fiction,134.01
+PROD_D2126E1C,Non-Fiction Max,Books,Non-Fiction,134.01
 PROD_42C4C541,Kids Advanced,Clothing,Kids,262.71
 PROD_A71E0FD2,Bedding Lite,Home,Bedding,371.7
 PROD_B6945E69,Kids Ultra,Clothing,Kids,102.03
 PROD_4A85A92D,Bedding Pro,Home,Bedding,133.16
 PROD_33D5FA2D,Non-Fiction Lite,Books,Non-Fiction,349.53
-PROD_52F93F49,BEDDING ADVANCED   ,Home,Bedding,267.66
+PROD_52F93F49,Bedding Advanced,Home,Bedding,267.66
 PROD_7EFF81CD,Bedding Ultra,Home,Bedding,307.7
 PROD_64AA117B,Bedding Pro,Home,Bedding,206.66
 PROD_988C6734,Furniture Ultra,Home,Furniture,92.54
@@ -385,13 +385,13 @@ PROD_96D62270,Fiction Advanced,Books,Fiction,359.73
 PROD_2DD2E57A,Non-Fiction Pro,Books,Non-Fiction,107.2
 PROD_DA3FB4A0,Kids Lite,Clothing,Kids,335.76
 PROD_87472041,Bedding Basic,Home,Bedding,334.5
-PROD_3678374A,TABLETS PRO   ,Electronics,Tablets,412.12
+PROD_3678374A,Tablets Pro,Electronics,Tablets,412.12
 PROD_2395ABBD,Fiction Advanced,Books,Fiction,222.14
-PROD_1B077FC6,ACCESSORIES PRO   ,Electronics,Accessories,406.75
+PROD_1B077FC6,Accessories Pro,Electronics,Accessories,406.75
 PROD_B4B79BC0,Accessories Max,Electronics,Accessories,384.47
 PROD_301F78B1,Kids Basic,Clothing,Kids,414.84
 PROD_2A251ECE,Activewear Max,Clothing,Activewear,456.93
-PROD_071806DB,BEDDING ULTRA   ,Home,Bedding,467.14
+PROD_071806DB,Bedding Ultra,Home,Bedding,467.14
 PROD_6A203E72,Phones Max,Electronics,Phones,174.3
 PROD_84A2A662,Laptops Model X,Electronics,Laptops,235.34
 PROD_AF68A4CC,Lighting Ultra,Home,Lighting,439.58
@@ -401,29 +401,29 @@ PROD_144A9CF3,Educational Ultra,Books,Educational,312.27
 PROD_5794F7BB,Furniture Advanced,Home,Furniture,220.71
 PROD_0A7D7670,Shoes Ultra,Clothing,Shoes,385.57
 PROD_D143592E,Bedding Lite,Home,Bedding,133.88
-PROD_2469BB89,  biography ultra  ,Books,Biography,73.77
+PROD_2469BB89,Biography Ultra,Books,Biography,73.77
 PROD_ED374513,Phones Pro,Electronics,Phones,21.44
 PROD_6ABF1977,Kids Model X,Clothing,Kids,150.03
-PROD_B5B4174A,  furniture ultra  ,Home,Furniture,177.21
+PROD_B5B4174A,Furniture Ultra,Home,Furniture,177.21
 PROD_30E741D2,Bedding Pro,Home,Bedding,359.74
 PROD_88AC6C96,Men Basic,Clothing,Men,393.63
 PROD_E6E4D370,Educational Pro,Books,Educational,437.57
 PROD_6F7F9911,Women Lite,Clothing,Women,368.03
 PROD_A270CBDD,Kitchen Model X,Home,Kitchen,235.28
-PROD_55F45045,  decor basic  ,Home,Decor,494.35
-PROD_7DD06A17,  bedding basic  ,Home,Bedding,24.13
+PROD_55F45045,Decor Basic,Home,Decor,494.35
+PROD_7DD06A17,Bedding Basic,Home,Bedding,24.13
 PROD_7D28687C,Kitchen Max,Home,Kitchen,364.21
 PROD_2B40F361,Shoes Ultra,Clothing,Shoes,124.02
 PROD_A6570506,Kitchen Ultra,Home,Kitchen,41.19
 PROD_5883E0D5,Men Model X,Clothing,Men,233.91
-PROD_B9F3327E,  men max  ,Clothing,Men,378.73
+PROD_B9F3327E,Men Max,Clothing,Men,378.73
 PROD_A2F626A6,Kitchen Basic,Home,Kitchen,265.76
 PROD_1457F08A,Furniture Advanced,Home,Furniture,144.93
 PROD_0BEA93FC,Accessories Basic,Electronics,Accessories,36.28
 PROD_5E26683F,Lighting Ultra,Home,Lighting,493.58
 PROD_AE6C1D12,Phones Pro,Electronics,Phones,478.98
-PROD_DE8689AD,ACTIVEWEAR BASIC   ,Clothing,Activewear,493.44
-PROD_910C90C7,ACTIVEWEAR ADVANCED   ,Clothing,Activewear,486.77
+PROD_DE8689AD,Activewear Basic,Clothing,Activewear,493.44
+PROD_910C90C7,Activewear Advanced,Clothing,Activewear,486.77
 PROD_44EA40E8,Biography Pro,Books,Biography,164.26
 PROD_1D8A99A6,Men Ultra,Clothing,Men,379.93
 PROD_BD67DC0B,Biography Model X,Books,Biography,197.12
@@ -445,7 +445,7 @@ PROD_A77A1CC2,Bedding Max,Home,Bedding,410.8
 PROD_29D6B0E1,Cameras Ultra,Electronics,Cameras,95.06
 PROD_A9F67C16,Activewear Ultra,Clothing,Activewear,353.11
 PROD_4DD4BF27,Activewear Pro,Clothing,Activewear,105.5
-PROD_C59B9490,TABLETS MAX   ,Electronics,Tablets,113.14
+PROD_C59B9490,Tablets Max,Electronics,Tablets,113.14
 PROD_60D65479,Furniture Advanced,Home,Furniture,266.49
 PROD_2D0765E7,Biography Pro,Books,Biography,444.77
 PROD_C6870DDE,Tablets Advanced,Electronics,Tablets,462.26
@@ -464,7 +464,7 @@ PROD_3DAFA5B0,Kids Max,Clothing,Kids,110.32
 PROD_B2886325,Comics Pro,Books,Comics,13.5
 PROD_FF52C6CD,Lighting Ultra,Home,Lighting,7.61
 PROD_D13C2258,Lighting Model X,Home,Lighting,465.53
-PROD_4ADBBD81,NON-FICTION BASIC   ,Books,Non-Fiction,78.28
+PROD_4ADBBD81,Non-Fiction Basic,Books,Non-Fiction,78.28
 PROD_A0187241,Shoes Model X,Clothing,Shoes,132.91
 PROD_3F0C7830,Non-Fiction Basic,Books,Non-Fiction,311.68
 PROD_26C30295,Bedding Ultra,Home,Bedding,132.31
@@ -475,11 +475,11 @@ PROD_1715E202,Biography Pro,Books,Biography,41.34
 PROD_D34881BD,Comics Max,Books,Comics,310.94
 PROD_358A3C3A,Lighting Advanced,Home,Lighting,61.3
 PROD_015396EE,Educational Model X,Books,Educational,225.61
-PROD_A80802AB,FICTION BASIC   ,Books,Fiction,150.35
+PROD_A80802AB,Fiction Basic,Books,Fiction,150.35
 PROD_75D09DA7,Laptops Basic,Electronics,Laptops,182.34
-PROD_2DE4BC0D,KIDS LITE   ,Clothing,Kids,281.05
+PROD_2DE4BC0D,Kids Lite,Clothing,Kids,281.05
 PROD_3F54DC57,Comics Max,Books,Comics,438.15
-PROD_58EB7C60,  shoes max  ,Clothing,Shoes,490.12
+PROD_58EB7C60,Shoes Max,Clothing,Shoes,490.12
 PROD_C7EA04A4,Bedding Advanced,Home,Bedding,272.55
 PROD_66444CDD,Phones Pro,Electronics,Phones,267.0
 PROD_BDF20C09,Shoes Max,Clothing,Shoes,122.22
@@ -497,10 +497,10 @@ PROD_5210A668,Cameras Advanced,Electronics,Cameras,280.75
 PROD_295E0656,Biography Basic,Books,Biography,185.29
 PROD_27FDF628,Tablets Basic,Electronics,Tablets,359.88
 PROD_D91D91E0,Fiction Max,Books,Fiction,182.09
-PROD_1ED08B82,  educational basic  ,Books,Educational,352.81
+PROD_1ED08B82,Educational Basic,Books,Educational,352.81
 PROD_800112F9,Women Model X,Clothing,Women,396.65
 PROD_BA941827,Phones Pro,Electronics,Phones,234.02
-PROD_641BE87C,  educational pro  ,Books,Educational,45.21
+PROD_641BE87C,Educational Pro,Books,Educational,45.21
 PROD_FCD96402,Men Pro,Clothing,Men,307.54
 PROD_35500702,Fiction Lite,Books,Fiction,423.34
 PROD_05F38582,Fiction Model X,Books,Fiction,13.28
@@ -524,18 +524,18 @@ PROD_81EFED9B,Kids Pro,Clothing,Kids,413.01
 PROD_ADD17A0F,Lighting Model X,Home,Lighting,246.01
 PROD_26AA7C1B,Furniture Model X,Home,Furniture,200.22
 PROD_A577BEAB,Comics Advanced,Books,Comics,176.56
-PROD_BF1CC932,  accessories pro  ,Electronics,Accessories,102.91
+PROD_BF1CC932,Accessories Pro,Electronics,Accessories,102.91
 PROD_A3B0A16A,Lighting Max,Home,Lighting,108.37
 PROD_E6E1DBA7,Tablets Model X,Electronics,Tablets,478.33
 PROD_3C9B3128,Accessories Ultra,Electronics,Accessories,400.28
 PROD_3341B4D8,Decor Ultra,Home,Decor,88.01
 PROD_AD9BBF13,Men Advanced,Clothing,Men,228.66
 PROD_11262207,Cameras Pro,Electronics,Cameras,140.98
-PROD_47D43201,  comics advanced  ,Books,Comics,278.24
-PROD_F1A85AEE,KITCHEN MAX   ,Home,Kitchen,429.21
+PROD_47D43201,Comics Advanced,Books,Comics,278.24
+PROD_F1A85AEE,Kitchen Max,Home,Kitchen,429.21
 PROD_F40DD521,Shoes Basic,Clothing,Shoes,9.76
 PROD_A6ADA586,Lighting Advanced,Home,Lighting,389.4
-PROD_7943BD39,ACCESSORIES MODEL X   ,Electronics,Accessories,200.05
+PROD_7943BD39,Accessories Model X,Electronics,Accessories,200.05
 PROD_0689EF5F,Activewear Model X,Clothing,Activewear,331.8
 PROD_FEE09EF6,Laptops Pro,Electronics,Laptops,346.13
 PROD_1823EDC3,Women Model X,Clothing,Women,259.71

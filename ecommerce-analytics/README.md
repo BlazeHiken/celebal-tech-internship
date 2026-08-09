@@ -24,27 +24,17 @@ CLI Summary Reports
 
 ## Project Components
 
-### 1. `data_generation.py`
+### 1. `scripts/generate_data.py`
 
 Generates four CSV files containing sample e-commerce data:
-
 - `customers.csv`
 - `products.csv`
 - `orders.csv`
 - `order_items.csv`
 
-The generated data contains intentional issues required by the project specification, including:
-
-- Missing customer IDs
-- Negative quantities representing returns
-- Incorrect order date formats
-- Product names with inconsistent spacing/capitalization
-- Invalid email addresses
-
-The generator uses `random.seed(42)` for reproducible random behavior.
+The generated data contains intentional issues required by the project specification.
 
 Output:
-
 ```text
 data/raw/
 ├── customers.csv
@@ -53,81 +43,41 @@ data/raw/
 └── order_items.csv
 ```
 
-### 2. `data_cleaning.py`
+### 2. `scripts/clean_data.py`
 
-Reads the raw CSV files using pandas and performs cleaning and validation.
-
-Functions include:
-
-- `clean_orders()` — standardizes order dates and handles missing customer IDs.
-- `clean_products()` — trims product names and applies title case.
-- `validate_emails()` — identifies customers with invalid email addresses.
-- `check_referential_integrity()` — identifies order items referencing non-existent orders.
-
-It produces cleaned CSV files and a cleaning report.
+Reads the raw CSV files using pandas and performs cleaning and validation. It produces cleaned CSV files with the `_clean.csv` suffix and a cleaning report.
 
 Output:
-
 ```text
 data/cleaned/
-├── customers.csv
-├── products.csv
-├── orders.csv
-├── order_items.csv
+├── customers_clean.csv
+├── products_clean.csv
+├── orders_clean.csv
+├── order_items_clean.csv
 └── cleaning_report.txt
 ```
 
-### 3. `setup_db.py`
+### 3. `scripts/load_db.py`
 
-Loads the cleaned CSV files into a local SQLite database named:
+Creates a local SQLite database named `ecommerce.db`. It executes the database schema defined in `sql/schema.sql` and loads the cleaned CSV files into the database.
 
-```text
-ecommerce.db
-```
+### 4. `sql/` Directory
 
-The database contains four tables:
+Contains the required SQL business analyses, split into logical files:
+- **`schema.sql`**: Database creation schema.
+- **`aggregations.sql`**: Basic aggregations, joins, and filtering (Queries 1-6).
+- **`window_functions.sql`**: Advanced window functions like ranking, running totals, and NTiles (Queries 7-9, 11, 13, 14, 16).
+- **`cohort_analysis.sql`**: Complex CTEs and Cohort Analysis based on the customer's first purchase month (Queries 10, 12, 15).
 
-- `customers`
-- `products`
-- `orders`
-- `order_items`
-
-Pandas `to_sql()` is used to create and populate the tables.
-
-### 4. `sql_analysis.sql`
-
-Contains the required SQL business analyses, including:
-
-1. Revenue per category
-2. Top 10 customers by order value
-3. Month-wise order count for the last 12 months
-4. Customers who never had a delivered order
-5. Products with more returns than purchases
-6. Return rate per category
-7. Running revenue totals by region
-8. Product ranking by category using `DENSE_RANK`
-9. Customer order gaps using `LAG`
-10. Customer revenue segmentation using CTEs
-11. Customer quartiles using `NTILE`
-12. Year-over-year revenue comparison
-13. First and most recent purchased categories
-14. Cumulative revenue distribution
-15. Customer cohort retention analysis
-16. Frequently purchased product pairs
-
-The cohort analysis uses the customer's `registration_date` as the cohort month.
-
-### 5. `cli_tool.py`
+### 5. `scripts/report_cli.py`
 
 Provides the user-facing command-line reporting tool.
 
-The user selects:
-
+The user interactively selects:
 - Report type: `daily`, `weekly`, or `monthly`
 - Start date
 
 The tool determines the corresponding reporting period and generates a summary containing:
-
 - Total orders
 - Total revenue
 - Unique customers
@@ -136,63 +86,39 @@ The tool determines the corresponding reporting period and generates a summary c
 
 The report is generated directly from the SQLite database.
 
-### 6. `test_edge_cases.py`
+### 6. `scripts/test_edge_cases.py`
 
-Contains the four edge-case tests required by the project:
+Contains the four edge-case tests required by the project, utilizing Python's built-in `unittest` framework.
 
-1. An order item references a non-existent order
-2. Discount percentage is greater than 100
-3. Quantity is zero
-4. Order date is in the future
+### 7. `scripts/verify_fixes.py`
 
-The tests use Python's built-in `unittest` framework.
-
-### 7. `verify_fixes.py`
-
-An additional verification utility created during development.
-
-This file is **not an additional requirement of the project specification**. It was added to make it easier to verify that the complete pipeline still works after changes.
-
-It:
-
-1. Runs `data_generation.py`
-2. Runs `data_cleaning.py`
-3. Runs `setup_db.py`
-4. Checks the final cleaned CSV row counts
-5. Executes `sql_analysis.sql` against SQLite
-6. Performs targeted checks for selected SQL queries
-7. Runs `test_edge_cases.py`
-
-It serves as a convenient end-to-end verification/smoke-test script for the project.
+An end-to-end verification/smoke-test script that runs the entire pipeline from data generation to reporting, ensuring everything works smoothly.
 
 ## Running the Project
 
-Run the main pipeline in this order:
+Run the main pipeline from the root directory in this order:
 
 ```bash
-python data_generation.py
-python data_cleaning.py
-python setup_db.py
+python scripts/generate_data.py
+python scripts/clean_data.py
+python scripts/load_db.py
 ```
 
-After the database has been created, the SQL analysis can be executed against `ecommerce.db`.
+After the database has been created, the SQL analysis files in `sql/` can be executed against `ecommerce.db`.
 
 To run the command-line reporting tool:
-
 ```bash
-python cli_tool.py
+python scripts/report_cli.py
 ```
 
 To run the required edge-case tests:
-
 ```bash
-python test_edge_cases.py
+python scripts/test_edge_cases.py
 ```
 
 For an end-to-end verification of the pipeline:
-
 ```bash
-python verify_fixes.py
+python scripts/verify_fixes.py
 ```
 
 ## Technologies
